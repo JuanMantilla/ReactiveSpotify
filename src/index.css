@@ -9,3 +9,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-grid{
+  display: grid;
+  grid-template-areas: 
+    "header header header header"
+    "main"
+    "footer footer footer footer";
+}

@@ -5,3 +5,21 @@
   grid-gap: 7rem;
   margin: 4rem;
 }
+
+@media screen and (min-width: 500px) {
+  .tracks-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .tracks-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .tracks-container {
+    grid-template-columns: auto auto auto auto;
+  }
+}

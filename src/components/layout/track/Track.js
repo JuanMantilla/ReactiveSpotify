@@ -5,7 +5,7 @@ import './Track.css';
 
 function Track(props) {
   return (
-    <Card style={{ width: '24rem' }} className='track-item'>
+    <Card className='track-item'>
       <div className="img-container">
         <Card.Img className="track-image" variant="top" src={props.children.images[0].url} />
         <Card.Title className='track-title'>{props.children.name}</Card.Title>
