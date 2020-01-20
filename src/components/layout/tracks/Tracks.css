@@ -1,0 +1,7 @@
+.tracks-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-items: center;
+  grid-gap: 7rem;
+  margin: 4rem;
+}

@@ -1,0 +1,50 @@
+.track-item{
+  -webkit-box-shadow: 6px -4px 25px -12px rgba(33,3,33,0.59);
+  -moz-box-shadow: 6px -4px 25px -12px rgba(33,3,33,0.59);
+  box-shadow: 6px -4px 25px -12px rgba(33,3,33,0.59);
+  transition: box-shadow 0.5s;
+}
+
+.track-item:hover{
+  -webkit-box-shadow: 17px -8px 31px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 17px -8px 31px -5px rgba(0,0,0,0.75);
+  box-shadow: 17px -8px 31px -5px rgba(0,0,0,0.75);
+}
+
+.track-item:hover>.img-container>.track-image{
+  border-radius: 0%;
+}
+
+.track-item{
+  grid-gap: 1rem;
+}
+
+.track-title{
+  background: #09090994;
+  border-radius: 4px;
+  padding: 2px 9px;
+  text-align: center;
+  color: #dcdefb;
+  position: absolute;
+  top: 81%;
+  left: 5%;
+  font-size: 1.5rem;
+  max-width: 20rem;
+}
+
+.img-container{
+  position: relative;
+  padding: 9px;
+
+}
+
+.track-image{
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #a5a5a54d;
+  border-radius: 50%;
+  transition: border-radius 0.4s;
+}
+
+.track-body{
+  text-align: end;
+}
