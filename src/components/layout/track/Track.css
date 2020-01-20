@@ -48,3 +48,24 @@
 .track-body{
   text-align: end;
 }
+
+@media screen and (min-width: 1000px) {
+  .track-title {
+    font-size: 1.5rem;
+    max-width: 22rem !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .track-title {
+    font-size: 2rem;
+    max-width: 21rem !important;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .track-title {
+    font-size: 2.5rem;
+    max-width: 30rem !important;
+  }
+}

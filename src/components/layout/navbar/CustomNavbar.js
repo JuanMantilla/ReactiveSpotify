@@ -6,15 +6,15 @@ import SearchBar from './items/searchbar/SearchBar'
 function CustomNavbar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className="header-navbar">
         <a href="#home">
           <img src='./imgs/spotify-logo.png' className='logo-img'></img>
-          <Navbar.Brand className='brand'>Reactive Spotify</Navbar.Brand>
+          <Navbar.Brand className='brand header-navbar'>Reactive Spotify</Navbar.Brand>
         </a>
         
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link >List genders</Nav.Link>
+          <Nav.Link href="#home" className="header-navbar">Home</Nav.Link>
+          <Nav.Link className="header-navbar">List genders</Nav.Link>
         </Nav>
         <SearchBar/>
       </Navbar>

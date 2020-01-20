@@ -5,3 +5,12 @@
 .brand{
   padding-left: 0.3rem;
 }
+
+@media screen and (min-width: 1800px) {
+  .header-navbar {
+    font-size: 1.5rem;
+  }
+  .logo-img{
+    width: 4rem;
+  }
+}
