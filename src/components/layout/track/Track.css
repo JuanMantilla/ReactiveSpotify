@@ -3,6 +3,7 @@
   -moz-box-shadow: 6px -4px 25px -12px rgba(33,3,33,0.59);
   box-shadow: 6px -4px 25px -12px rgba(33,3,33,0.59);
   transition: box-shadow 0.5s;
+  border-radius: 2%;
 }
 
 .track-item:hover{
@@ -12,7 +13,13 @@
 }
 
 .track-item:hover>.img-container>.track-image{
-  border-radius: 0%;
+  border-radius: 2%;
+}
+
+.track-item:hover>.img-container>.track-title{
+  box-shadow: 1px 4px 22px #000000;
+  background: #949090d1;
+  color: #e8e8f1;
 }
 
 .track-item{
@@ -21,7 +28,7 @@
 
 .track-title{
   background: #09090994;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 2px 9px;
   text-align: center;
   color: #dcdefb;
@@ -30,6 +37,8 @@
   left: 5%;
   font-size: 1.5rem;
   max-width: 20rem;
+  transition: box-shadow 0.5s;
+  transition: background 0.8s;
 }
 
 .img-container{

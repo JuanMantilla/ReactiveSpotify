@@ -6,7 +6,7 @@ import SearchBar from './items/searchbar/SearchBar'
 function CustomNavbar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" className="header-navbar">
+      <Navbar bg="dark" variant="dark" className="header-navbar" fixed="top">
         <a href="#home">
           <img src='./imgs/spotify-logo.png' className='logo-img'></img>
           <Navbar.Brand className='brand header-navbar'>Reactive Spotify</Navbar.Brand>
