@@ -43,7 +43,7 @@ function App() {
   }, []);
 
   return (
-    <div className='main-grid'>
+    <div>
       <CustomNavbar/>
       <Tracks>{contentCards}</Tracks>
     </div>

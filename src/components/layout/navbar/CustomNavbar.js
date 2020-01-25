@@ -13,7 +13,7 @@ function CustomNavbar() {
         </a>
         
         <Nav className="mr-auto">
-          <Nav.Link href="#home" className="header-navbar">Home</Nav.Link>
+          <Nav.Link href="#home" className="header-navbar">New releases</Nav.Link>
           <Nav.Link className="header-navbar">List genders</Nav.Link>
         </Nav>
         <SearchBar/>
